@@ -1,5 +1,11 @@
 # Technology
-![Javascript](https://img.shields.io/badge/Javascript-language-blue.svg)
+![Javascript](https://img.shields.io/badge/Javascript-code-blue.svg)
+![Html](https://img.shields.io/badge/HTML-language-blue.svg)
+![CSS](https://img.shields.io/badge/CSS-language-blue.svg)
+![Node](https://img.shields.io/badge/Node.js-server-red.svg)
+![handlebars](https://img.shields.io/badge/Handlebars-templating-red.svg)
+![Heroku](https://img.shields.io/badge/Heroku-host-green.svg)
+![NPM](https://img.shields.io/badge/npm-package-green.svg)
 
 
 
