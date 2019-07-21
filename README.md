@@ -1,4 +1,4 @@
-# Technology
+# Technology Used
 ![Javascript](https://img.shields.io/badge/Javascript-code-blue.svg)
 ![Html](https://img.shields.io/badge/HTML-language-blue.svg)
 ![CSS](https://img.shields.io/badge/CSS-language-blue.svg)
@@ -9,9 +9,7 @@
 ![AWS](https://img.shields.io/badge/AWS-host-green.svg)
 
 
-
-
-# melhor-terapia - Description
+# Melhor-Terapia - Description
 Site melhor terapia. Você encontrou a melhor terapia de SP. Temos um conceito moderno de terapia usando muita tecnologia sem perder o lado humano para te ajudar a atingir todo o seu potencial
 
 http://melhorterapia.com.br/
