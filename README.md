@@ -8,4 +8,8 @@ https://evening-tor-83665.herokuapp.com/
 # Keywords
 corpo, saúde, diversão, arte, educação, viagem, jornalismo, informação, cultura, entretenimento, lazer, opinião, análise, internet, fotografia, imagem, som, áudio, vídeo, fotos, humor, música
 
+# How to run
+1. Git clone all the data from this repository
+2. ```js npm install``` in order to download all required package.json details to node_modules
+3. ```js node server.js``` with this, the full webservice should be available in http://localhost:3000
 
