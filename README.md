@@ -1,5 +1,6 @@
 # Technology
-[![Javascript](https://img.shields.io/badge/Javascript-language-blue.svg)]()
+![Javascript](https://img.shields.io/badge/Javascript-language-blue.svg)
+
 
 
 # melhor-terapia - Description
