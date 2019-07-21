@@ -250,6 +250,367 @@ body{
 
 
 
+/* START START START page video - book */
+  
+.book { 
+  /* The image used */
+  background: 
+  linear-gradient(180deg,
+  rgba(30, 20, 163, 0.4),
+  rgba(30, 20, 163, 0.4)
+    ),
+  url(../images/books.jpg);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  height: auto; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+#book-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 500px) {
+  .book { 
+      /* The image used */
+      background: 
+      linear-gradient(
+      rgba(30, 20, 163, 0.4) 80%,
+      rgba(30, 20, 163, 0.4)
+        ),
+        url(../images/books.jpg);
+      /* background-color: rgba(0, 0, 0, 0.5); */
+      height: auto; 
+      /* background-attachment: fixed; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
+  }
+}
+
+/* END END END home page video - book */
+
+
+
+
+
+/* START START START page video - depre */
+  
+.depre { 
+  /* The image used */
+  background: 
+  linear-gradient(180deg,
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.4)
+    ),
+  url(../images/Depre.jpg);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  height: auto; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+#depre-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 500px) {
+  .amigos { 
+      /* The image used */
+      background: 
+      linear-gradient(
+        rgba(156, 46, 160, 0.4),
+        rgba(156, 46, 160, 0.4)
+        ),
+        url(../images/friends.jpeg);
+      /* background-color: rgba(0, 0, 0, 0.5); */
+      height: auto; 
+      /* background-attachment: fixed; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
+  }
+}
+
+/* END END END home page video - depre */
+
+
+
+
+
+/* START START START page video - amigos */
+  
+.amigos { 
+  /* The image used */
+  background: 
+  linear-gradient(180deg,
+  rgba(156, 46, 160, 0.4),
+  rgba(156, 46, 160, 0.4)
+    ),
+    url(../images/friends.jpeg);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  height: auto; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+#amigos-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 500px) {
+  .amigos { 
+      /* The image used */
+      background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
+        url(../images/friends.jpeg);
+      /* background-color: rgba(0, 0, 0, 0.5); */
+      height: auto; 
+      /* background-attachment: fixed; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
+  }
+}
+
+/* END END END home page video - amigos */
+
+
+
+
+
+/* START START START page video - prof */
+  
+.prof { 
+  /* The image used */
+  background: 
+  linear-gradient(180deg,
+  rgba(30, 20, 163, 0.4),
+  rgba(30, 20, 163, 0.4)
+    ),
+    url(../images/working.jpg);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  height: auto; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+#prof-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 500px) {
+  .prof { 
+      /* The image used */
+      background: 
+      linear-gradient(
+        rgba(30, 20, 163, 0.4),
+        rgba(30, 20, 163, 0.4)
+        ),
+        url(../images/working.jpg);
+      /* background-color: rgba(0, 0, 0, 0.5); */
+      height: auto; 
+      /* background-attachment: fixed; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
+  }
+}
+
+/* END END END home page video - amigos */
+
+
+
+
+.text-internal{
+font-family: 'Roboto', sans-serif; 
+font-size: 17px; 
+font-weight: 300; 
+line-height: 1.6em; 
+color:#54595f;
+padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+/* START START START page video - zoom */
+.zoom-effect {
+ transition: transform .2s; /* Animation */
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* END END END home page video - zoom */
+
+
+
+
+
+/* START START START  buttons color */
+.custom-button-gray{
+  display:inline-block;
+  line-height:1;
+  color:#fff;
+  text-align:center;
+  transition:all .5s;
+  font-size:0.8rem;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:1.8px;
+  background-color:dimgray;
+  border-radius:50px;
+  padding:16px 36px;
+  border-style:solid;
+  border-width:1px;
+  border-color:dimgray;
+  margin-bottom: 50px;
+} 
+
+.custom-button-gray:hover{
+  color:dimgray;
+  background-color:rgba(0,118,229,0);
+  border-style:solid;
+  border-width:1px;
+  border-color:dimgray;
+}
+
+.custom-button-purple{
+  display:inline-block;
+  line-height:1;
+  color:#fff;
+  text-align:center;
+  transition:all .5s;
+  font-size:0.8rem;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:1.8px;
+  background-color:purple;
+  border-radius:50px;
+  padding:16px 36px;
+  border-style:solid;
+  border-width:1px;
+  border-color:purple;
+  margin-bottom: 50px;
+} 
+
+.custom-button-purple:hover{
+  color:purple;
+  background-color:rgba(0,118,229,0);
+  border-style:solid;
+  border-width:1px;
+  border-color:purple;
+}
+
+.custom-button-cornflowerblue{
+  display:inline-block;
+  line-height:1;
+  color:#fff;
+  text-align:center;
+  transition:all .5s;
+  font-size:0.8rem;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:1.8px;
+  background-color:cornflowerblue;
+  border-radius:50px;
+  padding:16px 36px;
+  border-style:solid;
+  border-width:1px;
+  border-color:cornflowerblue;
+  margin-bottom: 50px;
+} 
+
+.custom-button-cornflowerblue:hover{
+  color:cornflowerblue;
+  background-color:rgba(0,118,229,0);
+  border-style:solid;
+  border-width:1px;
+  border-color:cornflowerblue;
+}
+
+
+
+/* END END END  buttons color */
+
+
+
+
+
+
+
+
+/* START START START page card-header effect*/
+.card-header .fas {
+  transition: .3s transform ease-in-out;
+  color: rgb(15, 180, 15);
+}
+.card-header .collapsed .fas {
+  transform: rotate(90deg);
+  color: black;
+}
+/* END END END  card-header effect */
+
+
+
+
+
 
 
 
