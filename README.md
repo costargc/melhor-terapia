@@ -1,5 +1,5 @@
 # Technology
-[x] Javascript
+![Javascript]
 
 
 # melhor-terapia - Description
