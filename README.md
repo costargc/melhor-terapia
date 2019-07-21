@@ -1,3 +1,7 @@
+# Technology
+[x] Javascript
+
+
 # melhor-terapia - Description
 Site melhor terapia. Você encontrou a melhor terapia de SP. Temos um conceito moderno de terapia usando muita tecnologia sem perder o lado humano para te ajudar a atingir todo o seu potencial
 
