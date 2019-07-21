@@ -4,8 +4,10 @@
 ![CSS](https://img.shields.io/badge/CSS-language-blue.svg)
 ![Node](https://img.shields.io/badge/Node.js-server-red.svg)
 ![handlebars](https://img.shields.io/badge/Handlebars-templating-red.svg)
+![NPM](https://img.shields.io/badge/npm-package%20manager-red.svg)
 ![Heroku](https://img.shields.io/badge/Heroku-host-green.svg)
-![NPM](https://img.shields.io/badge/npm-package-green.svg)
+![AWS](https://img.shields.io/badge/AWS-host-green.svg)
+
 
 
 
