@@ -27,7 +27,18 @@ $(document).ready(function () {
         contentType: 'application/json'
     }).then(function (obj) {
 
-        $("#sub_insta").attr("data-to", obj.users[0].user.follower_count);
+        for (i = 0; i < obj.users.length; i++) {
+            if (obj.users[0].user.pk == 13597872114) {
+                $("#sub_insta").attr("data-to", obj.users[0].user.follower_count);
+            }
+
+            else {
+                $("#sub_insta").attr("data-to", 113);
+                console.log("check insta logic...");
+            }
+        }
+
+
 
     });
 
