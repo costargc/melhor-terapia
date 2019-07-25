@@ -409,7 +409,7 @@ function printdata() {
 
 
 
-    $.post("/api/survey/new", { resultados: fulldata })
+    $.post("/api/survey/new", { resultados: fulldata[0] })
         // On success, run the following code
         .then(function (data) {
             // console.log("data sent:", data);
