@@ -27,14 +27,12 @@ $(document).ready(function () {
         contentType: 'application/json'
     }).then(function (obj) {
 
-        for (i = 0; i < obj.users.length; i++) {
-            if (obj.users[0].user.pk == 13597872114) {
-                $("#sub_insta").attr("data-to", obj.users[0].user.follower_count);
-            }
+        // console.log(obj.users);
 
-            else {
-                $("#sub_insta").attr("data-to", 113);
-                console.log("check insta logic...");
+        for (i = 0; i < obj.users.length; i++) {
+            if (obj.users[i].user.pk == 13597872114) {
+                $("#sub_insta").attr("data-to", obj.users[i].user.follower_count*1);
+                // console.log(obj.users[i].user.follower_count);
             }
         }
 
