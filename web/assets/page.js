@@ -30,14 +30,14 @@ $(document).ready(function () {
         // console.log(obj.users);
 
         for (i = 0; i < obj.users.length; i++) {
-            if (obj.users[i].user.pk == 13597872114) {
+            if (obj.users[i].user.pk == 13597872114 && obj.users[i].user.follower_count*1 >0 ) {
                 $("#sub_insta").attr("data-to", obj.users[i].user.follower_count*1);
                 // console.log(obj.users[i].user.follower_count);
             }
+            else {
+                $("#sub_insta").attr("data-to", 1959);
+            }
         }
-
-
-
     });
 
 

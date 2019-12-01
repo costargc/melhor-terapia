@@ -4,6 +4,7 @@ var express = require("express");
 var path = require("path");
 var exphbs = require("express-handlebars");
 
+
 // Sets up the Express App
 // =============================================================
 var app = express();
@@ -55,16 +56,38 @@ app.get("/survey", function (req, res) {
   res.sendFile(path.join(__dirname, "web", "survey.html"));
 });
 
-app.get("/api/survey", function(req, res) {
-  return res.json(survey_data);
-});
+// app.get("/api/survey", function (req, res) {
+//   return res.json(survey_data);
+// });
 
 
-app.post("/api/survey/new", function(req, res){
+// Save a reference to the Schema constructor
+var MongoClient = require('mongodb').MongoClient;
+var database_name = "mt_databasePROD";
+var url = "mongodb+srv://mt_username:mt_password@cluster0-hzcwi.mongodb.net/" + database_name + "?retryWrites=true&w=majority";
+
+
+app.post("/api/survey/new", function (req, res) {
   var data = req.body.resultados;
   // console.log("survey Data:");
   // console.log(data);
-  survey_data.push(data);
+  // survey_data.push(data);
+
+  MongoClient.connect(url, {
+    useUnifiedTopology: true,
+    useNewUrlParser: true,
+  },
+    function (err, db) {
+      if (err) throw err;
+      var dbo = db.db("mt_databasePROD");
+      var myobj = data;
+      dbo.collection("mt_collection").insertOne(myobj, function (err, res) {
+        if (err) throw err;
+        console.log("data inserted");
+        db.close();
+      });
+    });
+
 })
 
 
