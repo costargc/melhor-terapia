@@ -22,31 +22,36 @@ $(document).ready(function () {
 
     $.ajax({
         url: "https://cors-anywhere.herokuapp.com/https://www.melhorterapia.com.br/api/instagram",
-        method: "GET",
-        dataType: 'application/json'
+        method: "GET"
     }).then(function (obj) {
-        console.log(obj)
-    });
-
-
-    $.ajax({
-        url: "https://cors-anywhere.herokuapp.com/https://www.instagram.com/web/search/topsearch/?query=@melhorterapia",
-        method: "GET",
-        contentType: 'application/json'
-    }).then(function (obj) {
-
-        // console.log(obj.users);
-
-        for (i = 0; i < obj.users.length; i++) {
-            if (obj.users[i].user.pk == 13597872114 && obj.users[i].user.follower_count * 1 > 0) {
-                $("#sub_insta").attr("data-to", obj.users[i].user.follower_count * 1);
-                // console.log(obj.users[i].user.follower_count);
-            }
-            else {
-                $("#sub_insta").attr("data-to", 1959);
-            }
+        console.log(obj.subscriberCount)
+        if (obj.subscriberCount * 1 > 0) {
+            $("#sub_insta").attr("data-to", obj.subscriberCount * 1);
+        }
+        else {
+            $("#sub_insta").attr("data-to", 1958);
         }
     });
+
+
+    // $.ajax({
+    //     url: "https://cors-anywhere.herokuapp.com/https://www.instagram.com/web/search/topsearch/?query=@melhorterapia",
+    //     method: "GET",
+    //     contentType: 'application/json'
+    // }).then(function (obj) {
+
+    //     // console.log(obj.users);
+
+    //     for (i = 0; i < obj.users.length; i++) {
+    //         if (obj.users[i].user.pk == 13597872114 && obj.users[i].user.follower_count * 1 > 0) {
+    //             $("#sub_insta").attr("data-to", obj.users[i].user.follower_count * 1);
+    //             // console.log(obj.users[i].user.follower_count);
+    //         }
+    //         else {
+    //             $("#sub_insta").attr("data-to", 1959);
+    //         }
+    //     }
+    // });
 
 
 
