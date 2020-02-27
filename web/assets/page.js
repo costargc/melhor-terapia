@@ -224,9 +224,10 @@ $(document).ready(function () {
     });
 
 
+
     function grabmykey() {
-        p1 = "KSzaCyMUrFM4ZbIVa0C0Mm";
-        p2 = "SPj97ZdjhwvOcKVF4";
+        p1 = "KSzaCyN-SQxbXZKB9oB";
+        p2 = "7fGQywc7xDRatvDWh1GK";
 
         p1 = encrypt(p1, -10);
         p2 = encrypt(p2, -10);

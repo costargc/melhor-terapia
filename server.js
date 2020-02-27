@@ -46,7 +46,7 @@ app.get("/api/instagram", function (req, res) {
     .catch(e => {
       // Error will trigger if the account link provided is false.
       // console.error(data)
-      return ;
+      return;
     })
 });
 
