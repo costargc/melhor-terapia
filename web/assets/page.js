@@ -3,9 +3,6 @@ $(document).ready(function () {
     KEY = grabmykey();
     ID = grabmykey2();
 
-
-
-
     $.ajax({
         // url: "https://www.googleapis.com/youtube/v3/activities?part=snippet&channelId="+ID+"&key="+KEY,
         url: 'https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=' + ID + '&key=' + KEY,
@@ -226,8 +223,8 @@ $(document).ready(function () {
 
 
     function grabmykey() {
-        p1 = "KSzaCyN-SQxbXZKB9oB";
-        p2 = "7fGQywc7xDRatvDWh1GK";
+        p1 = "KSzaCyMK8kbBaLXYBvrh";
+        p2 = "_knqOJSdYcHTZ4myQPc";
 
         p1 = encrypt(p1, -10);
         p2 = encrypt(p2, -10);
@@ -235,6 +232,8 @@ $(document).ready(function () {
         return p1 + "" + p2
 
     };
+
+
 
     function grabmykey2() {
         p1 = "EMswAwV4AyUp";
