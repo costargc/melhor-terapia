@@ -73,6 +73,11 @@ app.get("/survey", function (req, res) {
   res.sendFile(path.join(__dirname, "web", "survey.html"));
 });
 
+app.get("/loja", function (req, res) {
+  // console.log(__dirname);
+  res.sendFile(path.join(__dirname, "web", "store.html"));
+});
+
 // app.get("/api/survey", function (req, res) {
 //   return res.json(survey_data);
 // });
