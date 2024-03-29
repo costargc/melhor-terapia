@@ -58,9 +58,9 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "web", "home.html"));
 });
 
-app.get("/terapias", function (req, res) {
+app.get("/quemsomos", function (req, res) {
   // console.log(__dirname);
-  res.sendFile(path.join(__dirname, "web", "terapias.html"));
+  res.sendFile(path.join(__dirname, "web", "quemsomos.html"));
 });
 
 app.get("/trabalhe-conosco", function (req, res) {
